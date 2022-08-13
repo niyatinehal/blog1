@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript to build your firs application</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <nav class="navigation">
+        <div class="container-fluid">
+            <div class="nav-brand">IAMDEVELOPER</div>
+            <!-- <ul class="list-inline">
+                <li>
+                    <a href="/" class="active">Home</a>
+                    
+                </li>
+                <li>
+                    <a href="projects.html" class="active">Projects</a>
+                    
+                </li>
+                <li>
+                    <a href="/" class="active">Blogs</a>
+                </li>
+            </ul> -->
+        </div>
+    </nav>
     <div class="container">
         <h1> Introduction
         </h1>
@@ -27,14 +46,66 @@
         <p><strong>Alert</strong>: An alert is a popup that has a notice within it.</p>
 
            <p><strong>Prompt</strong>: A prompt has an input field and expects the user to interact with it by entering some data.</p> 
-           <a href="http://output.jsbin.com/jicumo/1/">Demo</a>
+           <a class="link-primary" href="http://output.jsbin.com/jicumo/1/">Demo</a>
 
         <h3>3. Console.log()</h3>
         <p>The <strong>console.log()</strong> is a function in JavaScript that is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.</p>
 
-        <img src="" alt="">
+        <img src="./images/consoleLog.jpg" alt=""><br><br>
+        <img src="./images/consoleLogOutput.jpg" alt="">
+
+        <h3>4. readlinesync()</h3>
+        <p>
+            The <strong>Readline</strong> module provides a way of reading a datastream, one line at a time. <strong>Synchronous Readline</strong> is used for interactively running to have a conversation with the user via a console.
+        </p>
+        <p>
+            readlineSync tries to let your script have a conversation with the user via a console, even when the input/output stream is redirected.
+        </p>
+        <img src="./images/readlineSync.jpg" alt=""><br><br>
+        <img src="./images/readlineSyncOutput.jpg" alt="">
+
+        <h3>5. document.queryselector()
+        </h3>
+
+        <p>
+            The<strong> Document method querySelector()</strong>  returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+        </p>
+        <p>
+            To get the DOM elements, which have an attribute starting with a specific value, pass the following selector to the querySelectorAll method - <strong>'[title^="box"]'</strong>. The selector matches all of the DOM elements that have a *title* attribute that starts with the string *box*.
+        </p>
+
+        <img src="./images/documentQuerySelector.jpg" alt=""><br><br>
+        <img src="./images/documentQuerySelectorOutput.jpg" alt=""><br><br>
+        <img src="./images/documentQuerySelectorOutputReal.jpg" alt="">
+
+        <h3>6. addEventListener()</h3>
+
+        <p>
+            The <strong>addEventListener() </strong> is an inbuilt function in JavaScript that takes the event to listen for, and a second argument to be called whenever the described event gets fired. Any number of event handlers can be added to a single element without overwriting existing event handlers. 
+        </p>
+        <img src="./images/addEventListner.jpg" alt="">
+
+        <h3>Conclusion</h3>
+        <p>
+            After understanding these commands, you will be capable of building your very first application using javascript.
+            <p>
+                The more you practice, the better you will get at it. So don't give up even when you think you can't do it. 
+            </p>
+
+        </p>
 
     </div>
+
+    <footer class="footer container-fluid">
+        <div class="container">
+            <div class="heading">Connect With Me!</div>
+            <ul class="list-inline">
+                <li><a class="link" href="https://github.com/niyatinehal">Github</a></li>
+                <li><a class="link" href="https://www.linkedin.com/in/niyati-nehal-5791221b6/">Linkedin</a></li>
+                <li><a class="link" href="https://twitter.com/niyati_nehal">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
     
 </body>
 </html>
